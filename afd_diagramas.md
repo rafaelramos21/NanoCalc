@@ -193,15 +193,16 @@ stateDiagram-v2
 ## 8) DELIMITERS
 ```mermaid
 stateDiagram-v2
-  [*] --> d0
-  d0 --> p_op: "("
-  d0 --> p_cl: ")"
-  d0 --> b_op: "{"
-  d0 --> b_cl: "}"
-  d0 --> sb_op: "["
-  d0 --> sb_cl: "]"
-  d0 --> comma: ","
-  d0 --> colon: ":"
+    [*] --> d0
+    d0 --> p_op : "("
+    d0 --> p_cl : ")"
+    d0 --> b_op : "{"
+    d0 --> b_cl : "}"
+    d0 --> sb_op : "["
+    d0 --> sb_cl : "]"
+    d0 --> comma : ","
+    d0 --> colon : ":"
+
 ```
 
 ---
